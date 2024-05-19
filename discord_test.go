@@ -249,7 +249,7 @@ func TestScheduledEvents(t *testing.T) {
 		t.Fatal(err)
 	}
 	if len(users) != 0 {
-		t.Fatal("err on GuildScheduledEventUsers. Mismatch of event maybe occurred")
+		t.Fatal("err on GuildScheduledEventUsers. Mismatch of event maybe occured")
 	}
 
 	err = dgBot.GuildScheduledEventDelete(envGuild, event.ID)
